@@ -2,6 +2,8 @@
 
 **HoloTouch** is an application that enables users to remotely control and ***switch between*** various PC functions, such as volume, brightness, and mouse movements, as well as execute different types of mouse clicks (double click, single click, right click etc.). The project leverages machine learning to recognize gestures and map them to specific actions.
 
+![Slightly modifying the code to play touchless dino run](images/dino_run.gif)
+
 ## Customization
 
 **HoloTouch** can be tailored to better fit your specific needs by adjusting various parameters and constants in the `main.py` script. Below are instructions on how to customize the application:
@@ -105,11 +107,15 @@ Contains scripts and data required for gesture recognition model training.
 HoloTouch uses hand gestures to remotely control various PC functions, such as:
 - **Volume Control**: Adjust system volume up or down.
 - **Brightness Control**: Increase or decrease screen brightness.
-- **Mouse Movements**: Control the mouse position and perform various clicks (e.g., left-click, right-click).
+- **Mouse Movements**: Control the mouse position and perform various clicks (left-click, right-click, and double-click).
+- Switching between the above control utilities through gesturing.
+![Volume control](images/volume_control.JPG)
 
 ### Machine Learning for Gesture Recognition
 
 The project utilizes a Keras-based deep learning model to recognize hand gestures. The model is trained on hand landmark data extracted using tools like MediaPipe. The gestures are mapped to specific PC actions, enabling a touchless control experience.
+
+![Plot of training history](images/model_training_history.png)
 
 ## License
 
