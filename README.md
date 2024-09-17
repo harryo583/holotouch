@@ -1,6 +1,6 @@
 # HoloTouch
 
-**HoloTouch** is an application that allows users to interact with their PC using hand gestures, providing a seamless and touchless experience. The application enables users to remotely control and *switch between* various PC functions, such as volume, brightness, and mouse movements, as well as execute different types of mouse clicks (double click, single click, right click etc.). The project leverages machine learning to recognize gestures and map them to specific actions.
+**HoloTouch** is an application that enables users to remotely control and **switch between** various PC functions, such as volume, brightness, and mouse movements, as well as execute different types of mouse clicks (double click, single click, right click etc.). The project leverages machine learning to recognize gestures and map them to specific actions.
 
 ## Customization
 
