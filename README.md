@@ -4,6 +4,24 @@
 
 ![Slightly modifying the code to play touchless dino run](images/dino_run.gif)
 
+## Key Features
+
+### Gesture-Based PC Control
+
+HoloTouch uses hand gestures to remotely control various PC functions, such as:
+- **Volume Control**: Adjust system volume up or down.
+- **Brightness Control**: Increase or decrease screen brightness.
+- **Mouse Movements**: Control the mouse position and perform various clicks (left-click, right-click, and double-click).
+- Switching between the above control utilities through gesturing.
+![Volume control](images/volume_control.JPG)
+
+### Machine Learning for Gesture Recognition
+
+The project utilizes a Keras-based deep learning model to recognize hand gestures. The model is trained on hand landmark data extracted using tools like MediaPipe. The gestures are mapped to specific PC actions, enabling a touchless control experience.
+
+![Plot of training history](images/model_training_history.png)
+
+
 ## Customization
 
 **HoloTouch** can be tailored to better fit your specific needs by adjusting various parameters and constants in the `main.py` script. Below are instructions on how to customize the application:
@@ -99,23 +117,6 @@ Contains scripts and data required for gesture recognition model training.
 - **`mouse_control.py`**: Handles mouse movements and clicks using recognized gestures.
 - **`timer.py`**: A utility class that handles scheduling functions.
 - **`volume_control.py`**: Script for controlling the system volume using hand gestures.
-
-## Key Features
-
-### Gesture-Based PC Control
-
-HoloTouch uses hand gestures to remotely control various PC functions, such as:
-- **Volume Control**: Adjust system volume up or down.
-- **Brightness Control**: Increase or decrease screen brightness.
-- **Mouse Movements**: Control the mouse position and perform various clicks (left-click, right-click, and double-click).
-- Switching between the above control utilities through gesturing.
-![Volume control](images/volume_control.JPG)
-
-### Machine Learning for Gesture Recognition
-
-The project utilizes a Keras-based deep learning model to recognize hand gestures. The model is trained on hand landmark data extracted using tools like MediaPipe. The gestures are mapped to specific PC actions, enabling a touchless control experience.
-
-![Plot of training history](images/model_training_history.png)
 
 ## License
 
