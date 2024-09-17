@@ -18,7 +18,7 @@ HoloTouch uses hand gestures to remotely control various PC functions, such as:
 
 ### Machine Learning for Gesture Recognition
 
-The project utilizes a Keras-based deep learning model to recognize hand gestures. The model is trained on hand landmark data extracted using tools like MediaPipe. The gestures are mapped to specific PC actions, enabling a touchless control experience.
+The project utilizes a Keras-based deep learning model to recognize hand gestures. The model is trained on hand landmark data extracted using MediaPipe. The gestures are mapped to specific PC actions, enabling a touchless control experience.
 
 ![Plot of training history](images/model_training_history.png)
 
