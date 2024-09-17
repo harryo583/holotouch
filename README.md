@@ -13,6 +13,7 @@ HoloTouch uses hand gestures to remotely control various PC functions, such as:
 - **Brightness Control**: Increase or decrease screen brightness.
 - **Mouse Movements**: Control the mouse position and perform various clicks (left-click, right-click, and double-click).
 - Switching between the above control utilities through gesturing.
+
 ![Volume control](images/volume_control.JPG)
 
 ### Machine Learning for Gesture Recognition
