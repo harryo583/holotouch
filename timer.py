@@ -1,8 +1,5 @@
 """
 This script contains a utility class called Timer.
-
-Dependencies:
-    - Time (time)
 """
 
 import time
@@ -14,10 +11,18 @@ class Timer:
     def start(self):
         self.start_time = time.time()
     
-    def get_elapsed_time(self):
+    def get_elapsed_time(self) -> float:
         if self.start_time is None:
             raise ValueError("Timer has not been started.")
         return time.time() - self.start_time
     
     def reset(self):
         self.start_time = time.time()
+    
+    def __enter__(self):
+        self.start()
+        return self
+    
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        # Optionally, cleanup or reset
+        self.reset()
